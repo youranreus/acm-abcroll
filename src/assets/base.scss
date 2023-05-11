@@ -1,0 +1,17 @@
+body,
+html {
+  margin: 0;
+}
+
+html::before {
+  content: " ";
+  z-index: -1;
+  width: 150vw;
+  height: 150vh;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  background-size: 220px 234.8px;
+  background-image: url("./bg.png");
+  opacity: 0.05;
+}
